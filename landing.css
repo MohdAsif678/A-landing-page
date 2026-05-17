@@ -6,10 +6,10 @@
 
 nav {
   display: flex;
-  justify-content: space-around;
-  background-color: rgb(23, 23, 144);
+  justify-content: space-between;
   align-items: center;
   height: 90px;
+  background-color: blue;
 }
 nav ul {
   display: flex;
@@ -30,6 +30,7 @@ nav ul li a:hover {
 .left {
   font-size: 4rem;
   color: white;
+  margin-left: 2rem;
 }
 
 html,
